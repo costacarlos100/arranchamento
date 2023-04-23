@@ -1,0 +1,74 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: #11181A;
+}
+
+div.container{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #485056;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #A0A0A0;
+}
+
+/* Estilo do checkbox */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo do checkbox marcado */
+  input[type="checkbox"]:checked {
+    background-color: #21c23c;
+  }
+
+  input[type="checkbox"]:disabled{
+    background-color: #1a8a2d;
+  }
+  
+  
+img#admImg{
+    float:left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+span#funcao{
+    float:left;
+    margin-top:11px;
+    margin-left: 5px;
+    color:#fff;
+}
+
+div.panel-heading{
+    border-bottom: 1px solid #000;
+}
+
+a.botaosair{
+    margin-right: 7px;
+}
+
+form#form_arrancha{
+    padding: -5px;
+}
+
+p.tipodeacesso{
+    margin-top: -25px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+table.linhadeicone{
+    height: -10px;
+}
+
