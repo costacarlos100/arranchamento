@@ -176,11 +176,6 @@ CREATE TABLE `militares` (
 
 --
 -- Extraindo dados da tabela `militares`
---
-
-INSERT INTO `militares` (`id`, `nomeguerra`, `nomecompleto`, `companhia`, `ativo`, `cpf`, `senha`, `tipo_acesso`, `datacadastro`, `usuario_novo`, `posto`, `hierarquia`, `ultimoacesso`, `gradSigla`) VALUES
-(22435, 'COSTA ALVES', 'CARLOS HENRIQUE COSTA ALVES', 'CCAP', 'S', '18392459725', 'I3dafunadom', 'ADMINISTRADOR', '2023-03-11', 'S', 'SD EP', 14, '2023-03-13', 'cbsd');
-
 -- --------------------------------------------------------
 
 --
